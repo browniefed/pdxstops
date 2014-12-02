@@ -19,7 +19,7 @@ var Quickadd = React.createClass({
 	render: function() {
 		return (
 			<div>
-				<input onChange={this.handleChange} value={this.state.value} />
+				<input onChange={this.handleChange} value={this.state.value} placeholder="Stop #"/>
 				<button onClick={this.props.onAdd}>Add</button>
 			</div>
 		);
